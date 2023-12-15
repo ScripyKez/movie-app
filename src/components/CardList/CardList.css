@@ -1,0 +1,26 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 35px;
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 45px;
+}
+
+@media (max-width: 1200px) {
+  .card-list {
+    grid-template-columns: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.spinner {
+  display: flex;
+}
